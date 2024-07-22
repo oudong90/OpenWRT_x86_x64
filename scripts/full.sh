@@ -221,7 +221,7 @@ chmod -R a+x package/base-files/files/root/5GModem
 cp -rf MyConfig/configs/lede/general/etc/crontabs/* package/base-files/files/etc/crontabs
 
 # 修改默认IP地址
-sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 
 # 修改子网掩码
 #sed -i 's/255.255.255.0/255.255.0.0/g' package/base-files/files/bin/config_generate
