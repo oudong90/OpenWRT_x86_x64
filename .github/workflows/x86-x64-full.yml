@@ -64,6 +64,7 @@ jobs:
         cd openwrt
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
         echo "OPENWRTROOT=$PWD" >> $GITHUB_OUTPUT
+        mkdir customfeeds
         chmod +x ../scripts/*.sh
         ../scripts/hook-feeds.sh
 
