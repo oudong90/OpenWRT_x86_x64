@@ -168,7 +168,7 @@ jobs:
           echo "## 🗒️ 固件信息" >> release.txt
           [ $UPLOAD_WETRANSFER = true ] && echo "- 🚀 [点我快速下载](${{ steps.wetransfer.outputs.url }})" >> release.txt
           echo "
-          - 🔗 后台地址：192.168.10.1
+          - 🔗 后台地址：192.168.100.1
           - 🔑 后台密码：password
           ## 🍻 固件类型
           - 完整版：full
